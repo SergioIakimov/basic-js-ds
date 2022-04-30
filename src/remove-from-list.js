@@ -53,7 +53,7 @@ function removeKFromList(l, k) {
       if(thisNode.next == null) ;
        break;
     } 
-    thisNode = thisNode; 
+    thisNode = thisNode.next; 
     nextNode = thisNode.next; 
   } 
   return l;
